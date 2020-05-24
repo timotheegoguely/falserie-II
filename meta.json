@@ -1,0 +1,109 @@
+{
+  "@context": "http://schema.org",
+  "@type": "MusicAlbum",
+  "name": "Falserie II",
+  "byArtist": {
+    "@type": "Person",
+    "name": "Baptiste Portefaix",
+    "alternateName": "Villageois",
+    "sameAs": "https://twitter.com/baptisteworks"
+  },
+  "albumReleaseType": "EP",
+  "albumProductionType": "studio album",
+  "genre": "Dungeon Synth",
+  "image": "assets/img/falserie-II-villageois.jpg",
+  "url": "http://baptiste.works/villageois/falserie-II",
+  "sameAs": [
+    "https://smarturl.it/pc1gkh",
+    "https://villageois.bandcamp.com/album/falserie-ii",
+    "https://open.spotify.com/album/5ybwQzOTbxV8Jlzy9aYPKY?si=eercrHYFSAC_Yjh7vS7tNA",
+    "https://itunes.apple.com/fr/album/falserie-ii/1512496962?l=en&ls=1&app=music&at=11lEW&ct=pc1gkh%7Ct.co"
+  ],
+  "datePublished": "2020-05-22",
+  "description": "This new EP explores new and wider landscapes of the foggy world introduced in Low Age — from forests to villages; tombs to boglands.",
+  "video": {
+    "@type": "VideoObject",
+    "name": "Villageois - Falserie II",
+    "@id": "https://www.youtube.com/watch?v=y-25jxUx4lY",
+    "datePublished": "2020-05-23",
+    "author": {
+      "@type": "Person",
+      "name": "Baptiste Portefaix",
+      "alternateName": "Villageois",
+      "sameAs": "https://twitter.com/baptisteworks"
+    },
+    "description": "Composed and produced by Baptiste Portefaix, Artwork by Baptiste Portefaix",
+    "thumbnailUrl": "https://i.ytimg.com/vi/y-25jxUx4lY/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAfqZO_OuWTalqhvSbKfRIjgxTrKQ",
+    "uploadDate": "2020-05-23"
+  },
+  "numTracks": "7", 
+  "track": {
+    "@type": "ItemList",
+    "numberOfItems": 8,
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@type": "MusicRecording",
+          "name": "Traverse",
+          "duration": "PT1M59S"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "@type": "MusicRecording",
+          "name": "Marching Tower",
+          "duration": "PT2M08S"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@type": "MusicRecording",
+          "name": "Ivy Cages",
+          "duration": "PT2M07S"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "item": {
+          "@type": "MusicRecording",
+          "name": "Bogland",
+          "duration": "PT3M38S"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "item": {
+          "@type": "MusicRecording",
+          "name": "Villagers’s Borry",
+          "duration": "PT1M50S"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 6,
+        "item": {
+          "@type": "MusicRecording",
+          "name": "Chants",
+          "duration": "PT3M03S"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 7,
+        "item": {
+          "@type": "MusicRecording",
+          "name": "Burning The Gest",
+          "duration": "PT1M52S"
+        }
+      }
+    ]
+  }
+}
