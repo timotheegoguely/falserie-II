@@ -293,8 +293,7 @@ ol > li > a {
   text-decoration: none;
 }
 ol > li > a.active,
-ol > li > a:active,
-ol > li > a:focus {
+ol > li > a:active {
   color: var(--background-color);
   background-color: var(--secondary-color);
 }
