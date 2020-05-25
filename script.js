@@ -36,7 +36,6 @@ function onPlayerReady(event) {
   video.play();
   btn.classList.toggle("paused");
   btn.title = "Pause";
-  btn.setAttribute("aria-label", "Pause");
   tracks[0].classList.add("active")
   window.location.hash = "#1";
   function updateTime() {
@@ -68,7 +67,6 @@ for (var i = tracks.length - 1; i >= 0; i--) {
     if (!btn.classList.contains("paused")) {
       btn.classList.toggle("paused");
       btn.title = "Pause";
-      btn.setAttribute("aria-label", "Pause");
     }
   });
 }
@@ -98,13 +96,11 @@ btn.addEventListener("click", function(event) {
     video.play();
     player.playVideo();
     btn.title = "Pause";
-    btn.setAttribute('aria-label', 'Pause');
   }
   else {
     video.pause();
     player.pauseVideo();
     btn.title = "Play";
-    btn.setAttribute('aria-label', 'true');
   }
   return false;
 });
