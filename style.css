@@ -197,7 +197,7 @@ video {
   right: calc(50% - 30px);
   width: 60px;
   height: 60px;
-  padding: 11px 22.5px;
+  padding: 18px 22.5px;
   border-radius: 50%;
   border: 2px solid var(--primary-color);
   background: var(--background-color);
@@ -211,6 +211,7 @@ video {
 }
 
 button {
+  display: block;
   border: 0;
   background: transparent;
   box-sizing: border-box;
